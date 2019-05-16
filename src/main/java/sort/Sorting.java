@@ -2,7 +2,6 @@ package sort;
 
 import java.util.ArrayList;
 
-public interface Sorting<T extends Comparable> {
-    void sortAscending(ArrayList<T> elements);
-    void sortDescending(ArrayList<T> elements);
+public interface Sorting {
+    <T extends Comparable> void sort(ArrayList<T> elements, SortingType sortingType);
 }
