@@ -8,11 +8,11 @@
 ### Документация
 *Пример запуска для строк по возрастанию:*
 
-`java –jar sort.jar C:\in_dir\ --out-prefix=sorted_ --content-type=s --sort-mode=a`
+`java –jar sort-1.0.jar C:\in_dir\ --out-prefix=sorted_ --content-type=s --sort-mode=a`
 
 *Или, что тоже самое:*
 
-`java –jar sort.jar C:\in_dir\ -o=sorted_ -c=s -s=a`
+`java –jar sort-1.0.jar C:\in_dir\ -o=sorted_ -c=s -s=a`
 
 *Параметры и опции запуска:*
 
@@ -39,7 +39,7 @@
 
 После выполнения примера:
 
-`java –jar sort.jar C:\in_dir\ --out-prefix=sorted_ --content-type=s --sort-mode=a`
+`java –jar sort-1.0.jar C:\in_dir\ --out-prefix=sorted_ --content-type=s --sort-mode=a`
 
 В каталоге `(C:\in_dir\)` появится файл с префиксом `sorted_` - `sorted_test.txt` и содержимым:
 
